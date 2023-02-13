@@ -1,1 +1,15 @@
 /* your code */
+table{
+	border : 12px 32; 
+}
+thead{
+	background-color:teal;
+	color:white;
+	padding:5px 5px 5px 20px;
+}
+tbody{
+	padding:5px;
+}
+td{
+	padding:5px 115px 5px 20px;
+}
