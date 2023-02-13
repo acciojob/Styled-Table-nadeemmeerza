@@ -1,16 +1,41 @@
 /* your code */
-.container{
-	boder: 5px solid red;
+table{
+	border-collapse:collapse;
 }
+
 thead{
 	background-color:teal;
-	color:white;
-	padding:5px 5px 5px 20px;
-	
+	color:white;	
 }
 tbody{
-	padding:5px;
+	padding:0px;
 }
-td{
-	padding:5px 115px 5px 20px;
+th{
+	padding:5px 110px 10px 10px;
+	background-color:teal;
+}
+th:first-child {
+	padding:5px 110px 10px 10px;
+	border-radius:12px 0px 0px 0px;
+}
+th:last-child{
+	border-radius:0px 12px 0px 0px;
+}
+td{padding:10px;}
+tr:nth-child(even){
+	background-color:grey;
+}
+tr:nth-child(odd){
+	background-color:lightblue;
+}
+tbody tr:last-child {
+	background-color:grey;
+}
+tbody tr:last-child td:first-child{
+	border-radius:0px 0px 0px 12px ;
+	
+}
+tbody tr:last-child td:last-child{
+	border-radius:0px 0px 12px 0px ;
+	
 }
