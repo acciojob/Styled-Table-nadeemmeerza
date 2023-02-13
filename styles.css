@@ -1,11 +1,12 @@
 /* your code */
-table{
-	border : 12px 32; 
+.container{
+	boder: 5px solid red;
 }
 thead{
 	background-color:teal;
 	color:white;
 	padding:5px 5px 5px 20px;
+	
 }
 tbody{
 	padding:5px;
